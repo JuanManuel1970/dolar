@@ -37,7 +37,7 @@ CSS con gradientes y estilos personalizados
 
 Cloná este repositorio:
 
-git clone https://github.com/tuusuario/dolar-tracker-ar.git
+git clone https://github.com/JuanManuel1970/dolar-tracker-ar.git
 cd dolar-tracker-ar
 
 
