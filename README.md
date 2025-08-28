@@ -4,6 +4,8 @@ Aplicación web en React que consume la API de Bluelytics
  para mostrar en tiempo real las cotizaciones del dólar en Argentina.
 Incluye tarjetas de precios actuales y un gráfico histórico interactivo hecho con Recharts
 .
+<img width="1384" height="874" alt="image" src="https://github.com/user-attachments/assets/fbee5046-a016-4ab8-8b91-9ab180fb5d20" />
+
 
 🚀 Funcionalidades
 
