@@ -1,12 +1,80 @@
-# React + Vite
+📊 Dólar Tracker AR
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web en React que consume la API de Bluelytics
+ para mostrar en tiempo real las cotizaciones del dólar en Argentina.
+Incluye tarjetas de precios actuales y un gráfico histórico interactivo hecho con Recharts
+.
 
-Currently, two official plugins are available:
+🚀 Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔹 Visualización en tiempo real de:
 
-## Expanding the ESLint configuration
+Dólar Blue
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Dólar Oficial
+
+📅 Histórico seleccionable (7, 30, 60 o 90 días).
+
+📈 Gráfico dinámico con compra, venta y promedio.
+
+🖱️ Tooltip interactivo en el gráfico.
+
+🎨 Diseño con gradientes y tarjetas temáticas para cada tipo de dólar.
+
+📋 Botón para copiar la cotización actual al portapapeles.
+
+🛠️ Tecnologías utilizadas
+
+React
+
+Recharts
+
+Bluelytics API
+
+CSS con gradientes y estilos personalizados
+
+📦 Instalación
+
+Cloná este repositorio:
+
+git clone https://github.com/tuusuario/dolar-tracker-ar.git
+cd dolar-tracker-ar
+
+
+Instalá las dependencias:
+
+npm install
+
+
+Ejecutá la app en modo desarrollo:
+
+npm run dev
+
+
+Abrí en tu navegador:
+
+http://localhost:5173
+
+🌐 API utilizada
+
+Últimos valores
+https://api.bluelytics.com.ar/v2/latest
+
+Evolución histórica
+https://api.bluelytics.com.ar/v2/evolution.json
+
+📸 Capturas
+Cotizaciones y gráfico histórico
+
+📌 Próximas mejoras
+
+Agregar soporte para MEP y CCL.
+
+Exportar cotizaciones a CSV/Excel.
+
+Alertas cuando el dólar supere un umbral definido.
+
+👨‍💻 Autor
+
+Hecho por Juanma 🚀
+Fuente de datos: api.bluelytics.com.ar
